@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jura">
+    <!-- to fix the fcc tester issue on chrome and opera -->
+    <style type="text/css"> @media (max-width: 500px) { #header { display: flex; } } </style>
+</head>
+
+<body>
+    <section id="background">
+        <img  id="background-img" src="./images/keyboard-v1.jpg">
+    </section>
+    <nav id="navbar">
+        <a href="#projects-section">Projects</a>
+        <a id="profile-link" target="_blank" href="https://github.com/Farmanara"><img id="git-icon" src="./images/git-logo.png"></a>
+        <a href="#about-me">About Me</a>
+    </nav>
+    <br>
+    <section id="welcome-section">
+        <h1> Welcome!</h1>
+
+    </section>
+    <br>
+    <section id="about-me">
+        <h1>About me</h1>
+        <br>
+        <p id="about-me-text">Amir Farmanara.<br/> Front-End web developer.<br>Coding enthusiast who takes advantage of his OCD to write clean code
+            and create neat designs. </p>
+    </section>
+    <br>
+    <h1 id="projects-section"> Projects</h1>
+    
+    <section id="projects">
+
+        <div id="project1" class="project-tile">
+            
+            
+            <a href="https://farmanara.github.io/tribute-page/"> <img src="./images/tribute-page.png"></a>
+           
+        </div>
+        <div id="project2" class="project-tile">
+                <a href="https://farmanara.github.io/rock-paper-scissors"> <img src="./images/rock-paper-scissors.png"> </a>
+            </div>
+        <div id="project3" class="project-tile">
+                <a href="https://farmanara.github.io/doc-page/"> <img src="./images/survey-form.png"></a>
+            </div>
+        <div id="project4" class="project-tile"> 
+              
+                <a href="https://farmanara.github.io/sketch-board/"> <img src="./images/sketch-board-tile.png"> </a>
+            </div>
+    </section>
+
+
+    <form id="form" action="submit">
+        <fieldset>
+        <legend><h2 id="legend" > Need a website ? </h2></legend>
+        <p id="fill-text">Fill in the form below :)</p>
+        <input type="text" placeholder="Your Name " required>
+        <br>
+        <input type="email" placeholder="Your E-mail" required>
+        <br>
+        <input type="tel" placeholder="Your telephone number">
+        <br>
+        <input type="submit">
+    </fieldset>
+
+    </form>
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</html>
